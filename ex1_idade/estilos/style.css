@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+html {
+    height: 100vh;
 }
 
 header > h1 {
@@ -17,5 +22,10 @@ header > h1 {
 section {
     text-align: center;
     margin-top: 15px;
-    
+    margin: auto;
+    background-color: gray;
+
+    width: 500px;
+    height: 500px;
+
 }
