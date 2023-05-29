@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+
+    color: white;
+    background: blue;
+}
+
+section {
+    text-align: center;
+    margin-top: 15px;
+    
+}
