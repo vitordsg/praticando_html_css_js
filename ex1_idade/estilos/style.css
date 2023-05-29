@@ -13,7 +13,7 @@
 
 html {
     height: 100vh;
-    background-color: rgba(140, 255, 255, 0.719);
+    /*background-color: rgba(140, 255, 255, 0.719);*/
 }
 
 header > h1 {
@@ -52,6 +52,15 @@ section {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
 
 }
+
+img#img {
+
+    padding-top: 30px;
+    width: 20vh;
+    
+}
+        
+
 
 div#msghora {
     padding-top: 25px;
