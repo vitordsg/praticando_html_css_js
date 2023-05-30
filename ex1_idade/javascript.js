@@ -9,7 +9,7 @@ function horas() {
 
     var data = new Date()
     var minutos = data.getMinutes()
-    var horas = 12
+    var horas = data.getHours()
 
     if (horas >= 0 && horas < 6) {
 
