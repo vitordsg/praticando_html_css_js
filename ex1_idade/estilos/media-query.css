@@ -33,16 +33,21 @@ Grandes Telas: acima de 1200px
 
         color: white;
         
+        transition: .4s;
+        transition-timing-function: ease;
     }
 
     section {
         height: 320px;
+        transition: width .2s, height .2s;
+        transition-timing-function: ease;
     }
 
 
 
     img#img {
         width: 20vh;
+        transition: .4s;
     }
 }
 
@@ -56,14 +61,30 @@ Grandes Telas: acima de 1200px
         border-radius: 40px;
 
         color: white;
+
+        transition: .4s;
+        transition-timing-function: ease;
     }
 
     section {
-        height: 370px;
+        height: 400px;
+        transition: width .2s, height .2s;
+        transition-timing-function: ease;
+    }
+
+    div#msghora {
+        font-size: 1em;
+        transition: .3s;
+    }
+
+    p#paragrafo {
+        font-size: 1.7em;
+        transition: .4s;
     }
 
     img#img {
         width: 25vh;
+        transition: .4s;
     }
 
 
@@ -81,14 +102,30 @@ Grandes Telas: acima de 1200px
         border-radius: 60px;
 
         color: white;
+
+        transition: .4s;
+        transition-timing-function: ease;
     }
 
     section {
-        height: 420px;
+        height: 450px;
+        transition: width .2s, height .2s;
+        transition-timing-function: ease;
+    }
+
+    div#msghora{
+        font-size: 1.3em;
+        transition: .3s;
+    }
+
+    p#paragrafo {
+        font-size: 2em;
+        transition: .4s;
     }
 
     img#img {
         width: 30vh;
+        transition: .4s;
     }
 
 
@@ -104,14 +141,30 @@ Grandes Telas: acima de 1200px
         width: 650px;
         height: 200px;
         border-radius: 60px;
+
+        transition: .4s;
+        transition-timing-function: ease;
     }
 
     section {
-        height: 450px;
+        height: 500px;
+        transition: width .2s, height .2s;
+        transition-timing-function: ease;
+    }
+
+    div#msghora {
+        font-size: 1.5em;
+        transition: .3s;
+    }
+
+    p#paragrafo {
+        font-size: 2.8em;
+        transition: .4s;
     }
     
     img#img {
         width: 30vh;
+        transition: .4s;
     }
 
 }
