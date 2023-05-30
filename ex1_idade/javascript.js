@@ -9,15 +9,16 @@ function horas() {
 
     var data = new Date()
     var minutos = data.getMinutes()
-    var horas = 22
+    var horas = 12
 
     if (horas >= 0 && horas < 6) {
 
         if (horas == 0) {
             imagem.src = 'imagens/madrugada.png'
             document.body.style.background = '#030b22'
-            h1.style.backgroundColor = 'rgb(5, 194, 241)'
-            rodape.style.backgroundColor = 'rgb(5, 194, 241)'
+            h1.style.backgroundColor = '#062A73'
+            fundoS.style.backgroundColor = '#062A73'
+            rodape.style.backgroundColor = '#062A73'
 
             paragrafo.innerHTML = 'Boa Noite!'
             mensagem.innerHTML = `Agora são ${horas}:${minutos} da noite`
@@ -27,8 +28,9 @@ function horas() {
         // BOA MADRUGADA
         imagem.src = 'imagens/madrugada.png'
         document.body.style.background = '#030b22'
-        h1.style.backgroundColor = 'rgb(5, 194, 241)'
-        rodape.style.backgroundColor = 'rgb(5, 194, 241)'
+        h1.style.backgroundColor = '#284173'
+        fundoS.style.backgroundColor = '#284173'
+        rodape.style.backgroundColor = '#284173'
 
         paragrafo.innerHTML = 'Boa madrugada!'
         mensagem.innerHTML = `Agora são ${horas}:${minutos} da manhã! `
@@ -52,17 +54,31 @@ function horas() {
 
         // BOA TARDE
         imagem.src = 'imagens/tarde.png'
-        paragrafo.innerHTML = 'Boa Tarde!'
-        document.body.style.background = '#D9C979'
-        h1.style.backgroundColor = '#F2E30C'
-        fundoS.style.backgroundColor = '#F2E30C'
-        rodape.style.backgroundColor = '#F2E30C'
+        document.body.style.background = '#E68545'
+        h1.style.backgroundColor = '#FCB13F'
+        fundoS.style.backgroundColor = '#FCB13F'
+        rodape.style.backgroundColor = '#FCB13F'
 
+        paragrafo.innerHTML = 'Boa Tarde!'
         mensagem.innerHTML = `Agora são ${horas}:${minutos} da tarde`
     }
 
     else {
+        
+        // BOA NOITE 
+        if (horas == 20 || horas == 21 || horas == 22 || horas == 23){
+            imagem.src = 'imagens/noite2.png'
+            document.body.style.background = '#0D0D0D'
+            h1.style.backgroundColor = '#353540'
+            fundoS.style.backgroundColor = '#353540'
+            rodape.style.backgroundColor = '#353540'
 
+            paragrafo.innerHTML = 'Boa Noite!'
+            mensagem.innerHTML = `Agora são ${horas}:${minutos} da noite`
+
+        }
+
+        else {
         // BOA NOITE
         imagem.src = 'imagens/noite.png'
         document.body.style.background = '#473959'
@@ -71,6 +87,7 @@ function horas() {
         fundoS.style.backgroundColor = '#64588C'
         rodape.style.backgroundColor = '#64588C'
         mensagem.innerHTML = `Agora são ${horas}:${minutos} da noite`
+        }
         
     }
 
