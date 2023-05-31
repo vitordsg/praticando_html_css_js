@@ -6,8 +6,10 @@ function enviar() {
     let resul = document.querySelector('div#resultado')
     
     // PERGUNTA ANTES DE ENVIAR OS DADOS SE A CAIXA DE ANO DE NASCIMENTO EXISTE ALGUM VALOR OU O ANO E MAIOR QUE O ANO ATUAL
-    if (anoNascimento.value.length == 0 || Number(anoNascimento.value) > ano) {
+    if (anoNascimento.value.length == 0 || Number(anoNascimento.value) > ano || anoNascimento.value.length == 1) {
         alert('ERRO')
+        anoNascimento.value = ''
+        anoNascimento.focus()
     }
 
     else {
