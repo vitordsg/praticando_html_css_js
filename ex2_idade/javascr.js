@@ -50,12 +50,13 @@ function enviar() {
                 anoNascimento.focus()
             }
 
-            else if (idade < 50)
+            else if (idade < 50) {
                 faixa = 'Jovem Adulto'
                 resul.innerHTML = `É um ${faixa} do Gênero ${genero} de ${idade} anos<br>`
                 img.setAttribute('src', '../ex2_idade/imagem/adultom.png')
                 anoNascimento.value = ''
                 anoNascimento.focus()
+            }
         }
 
         resul.appendChild(img)
