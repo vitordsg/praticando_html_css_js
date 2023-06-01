@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Qual sua Idade?</title>
 </head>
 <body>
-    <header>
+    <header class="idade">
         <h1>Idade!</h1>
     </header>
 
-    <section>
-        <p>Ano de nascimento</p>
-        <p><input type="text" name="txtnascimento" id="txtnascimento"></p>
-        <p id="man"><input type="radio" name="radsexo" id="masculino" checked>
-        <label for="masculino">Masculino</label></p>
+    <section class="s1">
+
+        <p class="ano">Ano de nascimento</p>
+        <p class="ano"><input type="number" name="txtnascimento" id="txtnascimento" min="0" max="4" required placeholder="2000"></p>
 
 
-        <p><input type="radio" name="radsexo" id="feminino"><label for="feminino"> Feminino</label></p>
+        <p id="man" class="MF"><input type="radio" name="radsexo" id="masculino" checked>
+        <label for="masculino">Masculino <input type="radio" name="radsexo" id="feminino" class="MF"><label for="feminino"> Feminino</label></label></p>
+        <p></p>
 
-        <p><input type="button" value="Enviar" onclick="enviar()"></p>
+        <p><input id="botao" type="button" value="Enviar" onclick="enviar()"></p>
     </section>
 
-    <section>
+    <section class="s2">
         <div id="resultado"></div>
     </section>
 
