@@ -153,10 +153,10 @@ div#resultado {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    padding-top: 15px;
 
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
 footer {

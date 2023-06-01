@@ -115,7 +115,7 @@ function enviar() {
             }
         }
 
-        resul.innerHTML = `É um(a) ${faixa} do Gênero ${genero} de ${idade} anos`
+        resul.innerHTML = `É um(a) ${faixa} do Gênero ${genero} de ${idade} anos!`
         resul.appendChild(img)
         
     }
