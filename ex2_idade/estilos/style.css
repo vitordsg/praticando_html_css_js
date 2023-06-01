@@ -42,7 +42,7 @@ h1 {
 
     border: 2px solid #ffffff;
     animation: pulse 1s infinite;
-    animation: myrodape 7s infinite;
+    animation: myrodape 6s infinite;
 }
     @keyframes pulse {
         
@@ -170,7 +170,6 @@ footer {
     padding-top: 150px;
     text-align: center;
 
-    animation: myrodape 10s infinite;
 }
 
 @keyframes myrodape {
