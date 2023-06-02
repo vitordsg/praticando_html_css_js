@@ -40,7 +40,7 @@ function adicionar() {
         valores.push(Number(numero.value)) // ADICIONA O NUMERO NO VETOR/ ARRAY = VALORES
         let item = document.createElement('option') // CRIA UM ELEMENTO DO TIPO OPTION
         item.text = `Valor Adicionado ${numero.value}` // ADICIONA O VALOR NA LISTA
-        lista.appendChild(item) // A LISTA RECEBE O FILHO ITEM
+        lista.appendChild(item) // A LISTA RECEBE/ADICIONA O FILHO ITEM
         numero.value = '' // CAIXA DE TEXTO FICA VAZIA AO ADICIONAR UM NUMERO
         numero.focus()
     }
