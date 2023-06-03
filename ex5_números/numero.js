@@ -4,8 +4,6 @@ let resultado = document.querySelector('div#resultado')
 let valores = [] // ARRAY / VETOR
 
 
-
-
 // PERGUNTA SE O NÚMERO ESTÁ ENTRE 1 E 100
 function qNumero(n) {
 
