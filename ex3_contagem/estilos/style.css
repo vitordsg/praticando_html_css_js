@@ -17,3 +17,29 @@ header {
     box-shadow: 3px 3px 3px black;
     background-color: white;
 }
+
+section {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    width: 500px;
+
+    border-radius: 10px;
+    box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.411);
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bolder;
+
+    margin-top: 50px;
+    
+
+}
