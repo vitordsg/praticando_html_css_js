@@ -117,7 +117,7 @@ Grandes Telas: acima de 1200px
     }
 
     section {
-        height: 450px;
+        height: 480px;
         transition: width .2s, height .2s;
         transition-timing-function: ease;
     }
@@ -156,7 +156,7 @@ Grandes Telas: acima de 1200px
     }
 
     section {
-        height: 500px;
+        height: 520px;
         transition: width .2s, height .2s;
         transition-timing-function: ease;
     }
